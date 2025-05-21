@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Interactive Image Gallery</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- 🔹 Navigation Bar -->
+  <nav class="navbar">
+    <div class="logo">MyGallery</div>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- 🔹 Home Section -->
+  <section id="home" class="section home">
+    <h1>Welcome to My Interactive Image Gallery</h1>
+    <p>Scroll down to explore the gallery and learn more!</p>
+  </section>
+
+  <!-- 🔹 Gallery Section -->
+  <section id="gallery" class="section gallery">
+    <h2>Gallery</h2>
+    <div class="gallery-grid">
+      <img src="Images/download (1).jpg" alt="Image 1">
+      <img src="Images/download (2).jpg" alt="Image 2">
+      <img src="Images/download (3).jpg" alt="Image 3">
+      <img src="Images/download (4).jpg" alt="Image 4">
+      <img src="Images/download (5).jpg" alt="Image 5">
+      <img src="Images/download(6).jpg" alt="Image 6">
+      <img src="Images/download (7).jpg" alt="Image 7">
+      <img src="Images/download (8).jpg" alt="Image 8">
+      <img src="Images/download (9).jpg" alt="Image 9">
+      <img src="Images/download (10).jpg" alt="Image 10">
+      <img src="Images/download (11).jpg" alt="Image 11">
+      <img src="Images/download (12).jpg" alt="Image 12">
+    </div>
+  </section>
+
+  <!-- 🔹 About Section -->
+  <section id="about" class="section about">
+    <h2>About</h2>
+    <p>This gallery was created using HTML, CSS, and JavaScript with smooth animations and modal viewing.</p>
+  </section>
+
+  <!-- 🔹 Contact Section -->
+  <section id="contact" class="section contact">
+    <h2>Contact</h2>
+    <p>Feel free to reach out via email: <a href="">iftikharkhanbjr10@gmail.com</a></p>
+  </section>
+
+  <!-- 🔹 Modal Viewer -->
+  <div class="modal" id="modal">
+    <span class="close" id="close">&times;</span>
+    <button class="nav prev" id="prev">&#10094;</button>
+    <img class="modal-img" id="modal-img" alt="Full Image">
+    <button class="nav next" id="next">&#10095;</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
